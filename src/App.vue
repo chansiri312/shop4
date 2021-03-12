@@ -2,10 +2,10 @@
   <div id="app">
      <div id="nav">
       <div>
-        <b-navbar toggleable="md" type="dark" variant="light">
+        <b-navbar toggleable="md" type="dark" variant="dark">
           <b-navbar-brand href="">
             <b-col sm="1">
-              <router-link to="/"
+              <router-link to="/home"
                 ><img
                   src="https://scontent.fbkk22-4.fna.fbcdn.net/v/t1.15752-9/p1080x2048/156506991_443042430255417_227756453410202361_n.png?_nc_cat=109&ccb=1-3&_nc_sid=ae9488&_nc_eui2=AeHYjET9u4i2H_1VLNgZEJ3F3BC-yx7RDjLcEL7LHtEOMi59hLtLYicq5paWifZIE8DWFXxuuPesPv8E0AGpotZW&_nc_ohc=uYAe5uveb6MAX8dC0ac&_nc_ht=scontent.fbkk22-4.fna&_nc_tp=30&oh=d1ccadb74618a890e1790e47e8ca5bda&oe=606A3FD1"
                   class="d-inline-block align-top"
@@ -65,10 +65,10 @@
 
 #nav a {
   font-weight: bold;
-  color: #2c3e50;
+  color: #edf0f3;
 }
 
 #nav a.router-link-exact-active {
-  color: #42b983;
+  color: #f1ca4a;
 }
 </style>
